@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.wrap {	
+	overflow-x: hidden;
+	background-color: #003355;
+}
+
+#hero {
+	height: 150vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;	
+}
+
+.middle {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/milieuplan.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: bottom;
+	position: absolute;
+	top: 5vh;
+}
+
+.foreground {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/premierplan.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: bottom;
+	position: absolute;
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/background.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: bottom;
+	position: absolute;
+}
+
+.fake {
+	height: 100vh;
+	width: 100vw;
+}
